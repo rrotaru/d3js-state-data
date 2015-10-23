@@ -52,7 +52,10 @@ $.getJSON('json/stateaverages.json', function(dataset) {
     var desc = $('<div>').appendTo('#controller').css({'position':'absolute','bottom':'8px'});
     desc.append($('<h1>').text(dataset.meta.view.name).css({'font-family':'sans-serif'}));
     desc.append($('<p>').text(dataset.meta.view.description).css({'font-family':'sans-serif','font-size':'14px'}));
-    sel.change(function(evt) { console.log(this.value); });
+    sel.change(function(e) { 
+        console.log(this.value); 
+        map
+    });
 
     for (var key in jsondata['NATION']) {
         sel.append($("<option>").attr('value',key).text(jsondata['NATION'][key].name));
