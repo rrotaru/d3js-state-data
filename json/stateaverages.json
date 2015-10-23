@@ -1,0 +1,2210 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "xcdc-v8bm",
+      "name" : "State Averages",
+      "averageRating" : 0,
+      "category" : "Nursing Home Compare",
+      "createdAt" : 1373554843,
+      "description" : "A list of a variety of averages for each state or territory as well as the national average, including each quality measure, staffing, fine amount and number of deficiencies. Each row displays a specific state or territory, the associated measure and average.",
+      "displayType" : "table",
+      "downloadCount" : 5022,
+      "indexUpdatedAt" : 1443056151,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 13347856,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1443053863,
+      "publicationGroup" : 970695,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1442436480,
+      "rowsUpdatedBy" : "wn9i-fkbr",
+      "tableId" : 4354592,
+      "totalTimesRated" : 0,
+      "viewCount" : 3532,
+      "viewLastModified" : 1443053863,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : 222144988,
+        "name" : "State or Nation",
+        "dataTypeName" : "text",
+        "fieldName" : "state_or_nation",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 12093585,
+        "width" : 165,
+        "cachedContents" : {
+          "non_null" : 55,
+          "smallest" : "AK",
+          "null" : 0,
+          "largest" : "WY",
+          "top" : [ {
+            "count" : 20,
+            "item" : "PR"
+          }, {
+            "count" : 19,
+            "item" : "RI"
+          }, {
+            "count" : 18,
+            "item" : "SC"
+          }, {
+            "count" : 17,
+            "item" : "SD"
+          }, {
+            "count" : 16,
+            "item" : "TN"
+          }, {
+            "count" : 15,
+            "item" : "TX"
+          }, {
+            "count" : 14,
+            "item" : "UT"
+          }, {
+            "count" : 13,
+            "item" : "VA"
+          }, {
+            "count" : 12,
+            "item" : "VI"
+          }, {
+            "count" : 11,
+            "item" : "VT"
+          }, {
+            "count" : 10,
+            "item" : "WA"
+          }, {
+            "count" : 9,
+            "item" : "WI"
+          }, {
+            "count" : 8,
+            "item" : "WV"
+          }, {
+            "count" : 7,
+            "item" : "WY"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 222144990,
+        "name" : "Cycle 1 Total Number of Health Deficiencies",
+        "dataTypeName" : "number",
+        "fieldName" : "cycle_1_total_number_of_health_deficiencies",
+        "position" : 2,
+        "renderTypeName" : "number",
+        "tableColumnId" : 12093586,
+        "width" : 337,
+        "cachedContents" : {
+          "non_null" : 55,
+          "smallest" : "2.2",
+          "sum" : "411.7",
+          "null" : 0,
+          "average" : "7.485454545454545",
+          "largest" : "21.6",
+          "top" : [ {
+            "count" : 20,
+            "item" : "6.8"
+          }, {
+            "count" : 19,
+            "item" : "11.9"
+          }, {
+            "count" : 18,
+            "item" : "5.0"
+          }, {
+            "count" : 17,
+            "item" : "6.0"
+          }, {
+            "count" : 16,
+            "item" : "6.7"
+          }, {
+            "count" : 15,
+            "item" : "10.5"
+          }, {
+            "count" : 14,
+            "item" : "8.8"
+          }, {
+            "count" : 13,
+            "item" : "7.6"
+          }, {
+            "count" : 12,
+            "item" : "15.7"
+          }, {
+            "count" : 11,
+            "item" : "10.7"
+          }, {
+            "count" : 10,
+            "item" : "5.9"
+          }, {
+            "count" : 9,
+            "item" : "2.5"
+          }, {
+            "count" : 8,
+            "item" : "12.0"
+          }, {
+            "count" : 7,
+            "item" : "7.9"
+          }, {
+            "count" : 6,
+            "item" : "5.3"
+          }, {
+            "count" : 5,
+            "item" : "11.3"
+          }, {
+            "count" : 4,
+            "item" : "7.7"
+          }, {
+            "count" : 3,
+            "item" : "7.2"
+          }, {
+            "count" : 2,
+            "item" : "10.4"
+          }, {
+            "count" : 1,
+            "item" : "5.8"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 222144991,
+        "name" : "Cycle 1 Total Number of Fire Safety Deficiencies",
+        "dataTypeName" : "number",
+        "fieldName" : "cycle_1_total_number_of_fire_safety_deficiencies",
+        "position" : 3,
+        "renderTypeName" : "number",
+        "tableColumnId" : 12093587,
+        "width" : 362,
+        "cachedContents" : {
+          "non_null" : 55,
+          "smallest" : "0.0",
+          "sum" : "154.7",
+          "null" : 0,
+          "average" : "2.812727272727273",
+          "largest" : "6.6",
+          "top" : [ {
+            "count" : 20,
+            "item" : "3.3"
+          }, {
+            "count" : 19,
+            "item" : "3.7"
+          }, {
+            "count" : 18,
+            "item" : "1.0"
+          }, {
+            "count" : 17,
+            "item" : "3.6"
+          }, {
+            "count" : 16,
+            "item" : "4.8"
+          }, {
+            "count" : 15,
+            "item" : "1.9"
+          }, {
+            "count" : 14,
+            "item" : "2.4"
+          }, {
+            "count" : 13,
+            "item" : "1.1"
+          }, {
+            "count" : 12,
+            "item" : "2.3"
+          }, {
+            "count" : 11,
+            "item" : "6.0"
+          }, {
+            "count" : 10,
+            "item" : "0.3"
+          }, {
+            "count" : 9,
+            "item" : "3.5"
+          }, {
+            "count" : 8,
+            "item" : "2.7"
+          }, {
+            "count" : 7,
+            "item" : "6.6"
+          }, {
+            "count" : 6,
+            "item" : "4.2"
+          }, {
+            "count" : 5,
+            "item" : "1.8"
+          }, {
+            "count" : 4,
+            "item" : "1.3"
+          }, {
+            "count" : 3,
+            "item" : "3.9"
+          }, {
+            "count" : 2,
+            "item" : "5.0"
+          }, {
+            "count" : 1,
+            "item" : "1.6"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 222144992,
+        "name" : "Cycle 2 Total Number of Health Deficiencies",
+        "dataTypeName" : "number",
+        "fieldName" : "cycle_2_total_number_of_health_deficiencies",
+        "position" : 4,
+        "renderTypeName" : "number",
+        "tableColumnId" : 12093588,
+        "width" : 332,
+        "cachedContents" : {
+          "non_null" : 55,
+          "smallest" : "0.0",
+          "sum" : "416.5",
+          "null" : 0,
+          "average" : "7.572727272727273",
+          "largest" : "20.5",
+          "top" : [ {
+            "count" : 20,
+            "item" : "6.4"
+          }, {
+            "count" : 19,
+            "item" : "7.6"
+          }, {
+            "count" : 18,
+            "item" : "5.4"
+          }, {
+            "count" : 17,
+            "item" : "3.9"
+          }, {
+            "count" : 16,
+            "item" : "8.2"
+          }, {
+            "count" : 15,
+            "item" : "8.5"
+          }, {
+            "count" : 14,
+            "item" : "0.0"
+          }, {
+            "count" : 13,
+            "item" : "8.9"
+          }, {
+            "count" : 12,
+            "item" : "8.8"
+          }, {
+            "count" : 11,
+            "item" : "7.4"
+          }, {
+            "count" : 10,
+            "item" : "10.9"
+          }, {
+            "count" : 9,
+            "item" : "9.8"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 222144993,
+        "name" : "Cycle 2 Total Number of Fire Safety Deficiencies",
+        "dataTypeName" : "number",
+        "fieldName" : "cycle_2_total_number_of_fire_safety_deficiencies",
+        "position" : 5,
+        "renderTypeName" : "number",
+        "tableColumnId" : 12093589,
+        "width" : 355,
+        "cachedContents" : {
+          "non_null" : 55,
+          "smallest" : "0.1",
+          "sum" : "170.1",
+          "null" : 0,
+          "average" : "3.092727272727273",
+          "largest" : "11.0",
+          "top" : [ {
+            "count" : 20,
+            "item" : "3.3"
+          }, {
+            "count" : 19,
+            "item" : "2.9"
+          }, {
+            "count" : 18,
+            "item" : "4.4"
+          }, {
+            "count" : 17,
+            "item" : "1.2"
+          }, {
+            "count" : 16,
+            "item" : "3.5"
+          }, {
+            "count" : 15,
+            "item" : "5.1"
+          }, {
+            "count" : 14,
+            "item" : "5.9"
+          }, {
+            "count" : 13,
+            "item" : "1.7"
+          }, {
+            "count" : 12,
+            "item" : "2.3"
+          }, {
+            "count" : 11,
+            "item" : "1.0"
+          }, {
+            "count" : 10,
+            "item" : "2.5"
+          }, {
+            "count" : 9,
+            "item" : "9.0"
+          }, {
+            "count" : 8,
+            "item" : "0.4"
+          }, {
+            "count" : 7,
+            "item" : "3.7"
+          }, {
+            "count" : 6,
+            "item" : "6.5"
+          }, {
+            "count" : 5,
+            "item" : "4.0"
+          }, {
+            "count" : 4,
+            "item" : "1.6"
+          }, {
+            "count" : 3,
+            "item" : "3.6"
+          }, {
+            "count" : 2,
+            "item" : "0.9"
+          }, {
+            "count" : 1,
+            "item" : "4.8"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 222144994,
+        "name" : "Cycle 3 Total Number of Health Deficiencies",
+        "dataTypeName" : "number",
+        "fieldName" : "cycle_3_total_number_of_health_deficiencies",
+        "position" : 6,
+        "renderTypeName" : "number",
+        "tableColumnId" : 12093590,
+        "width" : 340,
+        "cachedContents" : {
+          "non_null" : 55,
+          "smallest" : "2.6",
+          "sum" : "426.5",
+          "null" : 0,
+          "average" : "7.754545454545455",
+          "largest" : "20.0",
+          "top" : [ {
+            "count" : 20,
+            "item" : "7.0"
+          }, {
+            "count" : 19,
+            "item" : "4.2"
+          }, {
+            "count" : 18,
+            "item" : "6.4"
+          }, {
+            "count" : 17,
+            "item" : "4.3"
+          }, {
+            "count" : 16,
+            "item" : "7.3"
+          }, {
+            "count" : 15,
+            "item" : "3.5"
+          }, {
+            "count" : 14,
+            "item" : "6.6"
+          }, {
+            "count" : 13,
+            "item" : "7.9"
+          }, {
+            "count" : 12,
+            "item" : "9.0"
+          }, {
+            "count" : 11,
+            "item" : "8.2"
+          }, {
+            "count" : 10,
+            "item" : "9.3"
+          }, {
+            "count" : 9,
+            "item" : "7.7"
+          }, {
+            "count" : 8,
+            "item" : "12.6"
+          }, {
+            "count" : 7,
+            "item" : "11.1"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 222144997,
+        "name" : "Cycle 3 Total Number of Fire Safety Deficiencies",
+        "dataTypeName" : "number",
+        "fieldName" : "cycle_3_total_number_of_fire_safety_deficiencies",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 12093591,
+        "width" : 362,
+        "cachedContents" : {
+          "non_null" : 55,
+          "smallest" : "0.0",
+          "sum" : "159.4",
+          "null" : 0,
+          "average" : "2.898181818181818",
+          "largest" : "6.7",
+          "top" : [ {
+            "count" : 20,
+            "item" : "3.4"
+          }, {
+            "count" : 19,
+            "item" : "2.8"
+          }, {
+            "count" : 18,
+            "item" : "4.2"
+          }, {
+            "count" : 17,
+            "item" : "1.3"
+          }, {
+            "count" : 16,
+            "item" : "5.4"
+          }, {
+            "count" : 15,
+            "item" : "6.7"
+          }, {
+            "count" : 14,
+            "item" : "2.0"
+          }, {
+            "count" : 13,
+            "item" : "2.2"
+          }, {
+            "count" : 12,
+            "item" : "1.2"
+          }, {
+            "count" : 11,
+            "item" : "2.1"
+          }, {
+            "count" : 10,
+            "item" : "2.5"
+          }, {
+            "count" : 9,
+            "item" : "0.0"
+          }, {
+            "count" : 8,
+            "item" : "0.3"
+          }, {
+            "count" : 7,
+            "item" : "4.3"
+          }, {
+            "count" : 6,
+            "item" : "3.2"
+          }, {
+            "count" : 5,
+            "item" : "6.1"
+          }, {
+            "count" : 4,
+            "item" : "3.8"
+          }, {
+            "count" : 3,
+            "item" : "3.7"
+          }, {
+            "count" : 2,
+            "item" : "2.3"
+          }, {
+            "count" : 1,
+            "item" : "0.6"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 222144998,
+        "name" : "Reported CNA Staffing Hours per Resident per Day",
+        "dataTypeName" : "number",
+        "fieldName" : "reported_cna_staffing_hours_per_resident_per_day",
+        "position" : 8,
+        "renderTypeName" : "number",
+        "tableColumnId" : 12093592,
+        "width" : 377,
+        "cachedContents" : {
+          "non_null" : 55,
+          "smallest" : "0.00",
+          "sum" : "139.49",
+          "null" : 0,
+          "average" : "2.536181818181818",
+          "largest" : "3.99",
+          "top" : [ {
+            "count" : 20,
+            "item" : "2.46"
+          }, {
+            "count" : 19,
+            "item" : "3.99"
+          }, {
+            "count" : 18,
+            "item" : "2.65"
+          }, {
+            "count" : 17,
+            "item" : "2.79"
+          }, {
+            "count" : 16,
+            "item" : "2.52"
+          }, {
+            "count" : 15,
+            "item" : "2.66"
+          }, {
+            "count" : 14,
+            "item" : "2.47"
+          }, {
+            "count" : 13,
+            "item" : "2.42"
+          }, {
+            "count" : 12,
+            "item" : "2.50"
+          }, {
+            "count" : 11,
+            "item" : "2.81"
+          }, {
+            "count" : 10,
+            "item" : "2.20"
+          }, {
+            "count" : 9,
+            "item" : "3.81"
+          }, {
+            "count" : 8,
+            "item" : "2.87"
+          }, {
+            "count" : 7,
+            "item" : "2.39"
+          }, {
+            "count" : 6,
+            "item" : "2.23"
+          }, {
+            "count" : 5,
+            "item" : "2.29"
+          }, {
+            "count" : 4,
+            "item" : "2.73"
+          }, {
+            "count" : 3,
+            "item" : "2.48"
+          }, {
+            "count" : 2,
+            "item" : "2.33"
+          }, {
+            "count" : 1,
+            "item" : "2.37"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 222145000,
+        "name" : "Reported LPN Staffing Hours per Resident per Day",
+        "dataTypeName" : "number",
+        "fieldName" : "reported_lpn_staffing_hours_per_resident_per_day",
+        "position" : 9,
+        "renderTypeName" : "number",
+        "tableColumnId" : 12093593,
+        "width" : 370,
+        "cachedContents" : {
+          "non_null" : 55,
+          "smallest" : "0.31",
+          "sum" : "45.92",
+          "null" : 0,
+          "average" : "0.8349090909090909",
+          "largest" : "3.14",
+          "top" : [ {
+            "count" : 20,
+            "item" : "0.80"
+          }, {
+            "count" : 19,
+            "item" : "0.97"
+          }, {
+            "count" : 18,
+            "item" : "0.85"
+          }, {
+            "count" : 17,
+            "item" : "0.91"
+          }, {
+            "count" : 16,
+            "item" : "0.96"
+          }, {
+            "count" : 15,
+            "item" : "0.62"
+          }, {
+            "count" : 14,
+            "item" : "0.63"
+          }, {
+            "count" : 13,
+            "item" : "0.87"
+          }, {
+            "count" : 12,
+            "item" : "0.45"
+          }, {
+            "count" : 11,
+            "item" : "0.89"
+          }, {
+            "count" : 10,
+            "item" : "0.43"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 222145001,
+        "name" : "Reported RN Staffing Hours per Resident per Day",
+        "dataTypeName" : "number",
+        "fieldName" : "reported_rn_staffing_hours_per_resident_per_day",
+        "position" : 10,
+        "renderTypeName" : "number",
+        "tableColumnId" : 12093594,
+        "width" : 364,
+        "cachedContents" : {
+          "non_null" : 55,
+          "smallest" : "0.48",
+          "sum" : "57.78",
+          "null" : 0,
+          "average" : "1.050545454545455",
+          "largest" : "4.19",
+          "top" : [ {
+            "count" : 20,
+            "item" : "0.76"
+          }, {
+            "count" : 19,
+            "item" : "0.97"
+          }, {
+            "count" : 18,
+            "item" : "0.95"
+          }, {
+            "count" : 17,
+            "item" : "0.86"
+          }, {
+            "count" : 16,
+            "item" : "0.88"
+          }, {
+            "count" : 15,
+            "item" : "0.98"
+          }, {
+            "count" : 14,
+            "item" : "0.84"
+          }, {
+            "count" : 13,
+            "item" : "0.92"
+          }, {
+            "count" : 12,
+            "item" : "1.19"
+          }, {
+            "count" : 11,
+            "item" : "1.01"
+          }, {
+            "count" : 10,
+            "item" : "1.02"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 222145002,
+        "name" : "Reported Licensed Staffing Hours per Resident per Day",
+        "dataTypeName" : "number",
+        "fieldName" : "reported_licensed_staffing_hours_per_resident_per_day",
+        "position" : 11,
+        "renderTypeName" : "number",
+        "tableColumnId" : 12093595,
+        "width" : 400,
+        "cachedContents" : {
+          "non_null" : 55,
+          "smallest" : "1.23",
+          "sum" : "103.71",
+          "null" : 0,
+          "average" : "1.885636363636364",
+          "largest" : "7.18",
+          "top" : [ {
+            "count" : 20,
+            "item" : "1.71"
+          }, {
+            "count" : 19,
+            "item" : "1.51"
+          }, {
+            "count" : 18,
+            "item" : "1.92"
+          }, {
+            "count" : 17,
+            "item" : "1.75"
+          }, {
+            "count" : 16,
+            "item" : "1.64"
+          }, {
+            "count" : 15,
+            "item" : "1.98"
+          }, {
+            "count" : 14,
+            "item" : "1.53"
+          }, {
+            "count" : 13,
+            "item" : "1.59"
+          }, {
+            "count" : 12,
+            "item" : "1.62"
+          }, {
+            "count" : 11,
+            "item" : "1.57"
+          }, {
+            "count" : 10,
+            "item" : "1.46"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 222145003,
+        "name" : "Reported Total Nurse Staffing Hours per Resident per Day",
+        "dataTypeName" : "number",
+        "fieldName" : "reported_total_nurse_staffing_hours_per_resident_per_day",
+        "position" : 12,
+        "renderTypeName" : "number",
+        "tableColumnId" : 12093596,
+        "width" : 418,
+        "cachedContents" : {
+          "non_null" : 55,
+          "smallest" : "3.70",
+          "sum" : "243.24",
+          "null" : 0,
+          "average" : "4.422545454545455",
+          "largest" : "10.22",
+          "top" : [ {
+            "count" : 20,
+            "item" : "7.18"
+          }, {
+            "count" : 19,
+            "item" : "3.87"
+          }, {
+            "count" : 18,
+            "item" : "4.33"
+          }, {
+            "count" : 17,
+            "item" : "3.70"
+          }, {
+            "count" : 16,
+            "item" : "4.01"
+          }, {
+            "count" : 15,
+            "item" : "3.84"
+          }, {
+            "count" : 14,
+            "item" : "4.49"
+          }, {
+            "count" : 13,
+            "item" : "4.20"
+          }, {
+            "count" : 12,
+            "item" : "4.70"
+          }, {
+            "count" : 11,
+            "item" : "4.23"
+          }, {
+            "count" : 10,
+            "item" : "4.39"
+          }, {
+            "count" : 9,
+            "item" : "4.16"
+          }, {
+            "count" : 8,
+            "item" : "4.00"
+          }, {
+            "count" : 7,
+            "item" : "3.86"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 222145006,
+        "name" : "Reported Physical Therapist Staffing Hours per Resident Per Day",
+        "dataTypeName" : "number",
+        "fieldName" : "reported_physical_therapist_staffing_hours_per_resident_per_day",
+        "position" : 13,
+        "renderTypeName" : "number",
+        "tableColumnId" : 12093597,
+        "width" : 457,
+        "cachedContents" : {
+          "non_null" : 55,
+          "smallest" : "0.03",
+          "sum" : "6.71",
+          "null" : 0,
+          "average" : "0.122",
+          "largest" : "0.78",
+          "top" : [ {
+            "count" : 20,
+            "item" : "0.10"
+          }, {
+            "count" : 19,
+            "item" : "0.11"
+          }, {
+            "count" : 18,
+            "item" : "0.05"
+          }, {
+            "count" : 17,
+            "item" : "0.06"
+          }, {
+            "count" : 16,
+            "item" : "0.14"
+          }, {
+            "count" : 15,
+            "item" : "0.12"
+          }, {
+            "count" : 14,
+            "item" : "0.13"
+          }, {
+            "count" : 13,
+            "item" : "0.21"
+          }, {
+            "count" : 12,
+            "item" : "0.09"
+          }, {
+            "count" : 11,
+            "item" : "0.32"
+          }, {
+            "count" : 10,
+            "item" : "0.17"
+          }, {
+            "count" : 9,
+            "item" : "0.07"
+          }, {
+            "count" : 8,
+            "item" : "0.08"
+          }, {
+            "count" : 7,
+            "item" : "0.18"
+          }, {
+            "count" : 6,
+            "item" : "0.03"
+          }, {
+            "count" : 5,
+            "item" : "0.78"
+          }, {
+            "count" : 4,
+            "item" : "0.22"
+          }, {
+            "count" : 3,
+            "item" : "0.04"
+          }, {
+            "count" : 2,
+            "item" : "0.15"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 222145008,
+        "name" : "Number of Fines",
+        "dataTypeName" : "number",
+        "fieldName" : "number_of_fines",
+        "position" : 14,
+        "renderTypeName" : "number",
+        "tableColumnId" : 12093598,
+        "width" : 177,
+        "cachedContents" : {
+          "non_null" : 55,
+          "smallest" : "0.0",
+          "sum" : "18.2",
+          "null" : 0,
+          "average" : "0.3309090909090909",
+          "largest" : "0.9",
+          "top" : [ {
+            "count" : 20,
+            "item" : "0.3"
+          }, {
+            "count" : 19,
+            "item" : "0.7"
+          }, {
+            "count" : 18,
+            "item" : "0.2"
+          }, {
+            "count" : 17,
+            "item" : "0.6"
+          }, {
+            "count" : 16,
+            "item" : "0.5"
+          }, {
+            "count" : 15,
+            "item" : "0.4"
+          }, {
+            "count" : 14,
+            "item" : "0.0"
+          }, {
+            "count" : 13,
+            "item" : "0.9"
+          }, {
+            "count" : 12,
+            "item" : "0.1"
+          }, {
+            "count" : 11,
+            "item" : "0.8"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 222145009,
+        "name" : "Fine Amount in Dollars",
+        "dataTypeName" : "money",
+        "fieldName" : "fine_amount_in_dollars",
+        "position" : 15,
+        "renderTypeName" : "money",
+        "tableColumnId" : 12093599,
+        "width" : 219,
+        "cachedContents" : {
+          "non_null" : 55,
+          "smallest" : "0",
+          "sum" : "395386",
+          "null" : 0,
+          "average" : "7188.836363636364",
+          "largest" : "36280",
+          "top" : [ {
+            "count" : 20,
+            "item" : "0"
+          }, {
+            "count" : 19,
+            "item" : "2363"
+          }, {
+            "count" : 18,
+            "item" : "21998"
+          }, {
+            "count" : 17,
+            "item" : "22509"
+          }, {
+            "count" : 16,
+            "item" : "9157"
+          }, {
+            "count" : 15,
+            "item" : "2360"
+          }, {
+            "count" : 14,
+            "item" : "5623"
+          }, {
+            "count" : 13,
+            "item" : "11234"
+          }, {
+            "count" : 12,
+            "item" : "1299"
+          }, {
+            "count" : 11,
+            "item" : "8522"
+          }, {
+            "count" : 10,
+            "item" : "11514"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 222145010,
+        "name" : " Percent of Long Stay Residents Whose Need for Help with ADLs has Increased",
+        "dataTypeName" : "percent",
+        "fieldName" : "percent_of_long_stay_residents_whose_need_for_help_with_adls_has_increased",
+        "position" : 16,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 12093600,
+        "width" : 540,
+        "cachedContents" : {
+          "non_null" : 53,
+          "smallest" : "11.462186",
+          "sum" : "848.890223",
+          "null" : 2,
+          "average" : "16.01679666037736",
+          "largest" : "19.947269",
+          "top" : [ {
+            "count" : 20,
+            "item" : "15.294386"
+          }, {
+            "count" : 19,
+            "item" : "17.425927"
+          }, {
+            "count" : 18,
+            "item" : "16.822365"
+          }, {
+            "count" : 17,
+            "item" : "19.947269"
+          }, {
+            "count" : 16,
+            "item" : "13.084203"
+          }, {
+            "count" : 15,
+            "item" : "18.155316"
+          }, {
+            "count" : 14,
+            "item" : "17.647059"
+          }, {
+            "count" : 13,
+            "item" : "19.496826"
+          }, {
+            "count" : 12,
+            "item" : "14.210564"
+          }, {
+            "count" : 11,
+            "item" : "15.197989"
+          }, {
+            "count" : 10,
+            "item" : "18.884278"
+          }, {
+            "count" : 9,
+            "item" : "17.413190"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 222145013,
+        "name" : "Percent of Long Stay Residents Who Self Report Moderate to Severe Pain",
+        "dataTypeName" : "percent",
+        "fieldName" : "percent_of_long_stay_residents_who_self_report_moderate_to_severe_pain",
+        "position" : 17,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 12093601,
+        "width" : 515,
+        "cachedContents" : {
+          "non_null" : 53,
+          "smallest" : "1.452368",
+          "sum" : "423.675967",
+          "null" : 2,
+          "average" : "7.993886169811321",
+          "largest" : "19.273335",
+          "top" : [ {
+            "count" : 20,
+            "item" : "6.010146"
+          }, {
+            "count" : 19,
+            "item" : "8.883280"
+          }, {
+            "count" : 18,
+            "item" : "5.351342"
+          }, {
+            "count" : 17,
+            "item" : "8.223014"
+          }, {
+            "count" : 16,
+            "item" : "11.589035"
+          }, {
+            "count" : 15,
+            "item" : "7.700155"
+          }, {
+            "count" : 14,
+            "item" : "5.722241"
+          }, {
+            "count" : 13,
+            "item" : "10.751766"
+          }, {
+            "count" : 12,
+            "item" : "8.505974"
+          }, {
+            "count" : 11,
+            "item" : "8.469094"
+          }, {
+            "count" : 10,
+            "item" : "8.302748"
+          }, {
+            "count" : 9,
+            "item" : "12.574233"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 222145014,
+        "name" : "Percent of High Risk Long Stay Residents With Pressure Ulcers",
+        "dataTypeName" : "percent",
+        "fieldName" : "percent_of_high_risk_long_stay_residents_with_pressure_ulcers",
+        "position" : 18,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 12093602,
+        "width" : 452,
+        "cachedContents" : {
+          "non_null" : 53,
+          "smallest" : "3.026119",
+          "sum" : "300.981714",
+          "null" : 2,
+          "average" : "5.678900264150943",
+          "largest" : "9.677416",
+          "top" : [ {
+            "count" : 20,
+            "item" : "6.273597"
+          }, {
+            "count" : 19,
+            "item" : "5.199105"
+          }, {
+            "count" : 18,
+            "item" : "5.463037"
+          }, {
+            "count" : 17,
+            "item" : "6.757997"
+          }, {
+            "count" : 16,
+            "item" : "4.280742"
+          }, {
+            "count" : 15,
+            "item" : "6.397931"
+          }, {
+            "count" : 14,
+            "item" : "9.677416"
+          }, {
+            "count" : 13,
+            "item" : "4.518329"
+          }, {
+            "count" : 12,
+            "item" : "5.193414"
+          }, {
+            "count" : 11,
+            "item" : "4.341647"
+          }, {
+            "count" : 10,
+            "item" : "6.710319"
+          }, {
+            "count" : 9,
+            "item" : "4.333300"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 222145016,
+        "name" : "Percent of Long Stay Residents Who Lose Too Much Weight",
+        "dataTypeName" : "percent",
+        "fieldName" : "percent_of_long_stay_residents_who_lose_too_much_weight",
+        "position" : 19,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 12093603,
+        "width" : 435,
+        "cachedContents" : {
+          "non_null" : 53,
+          "smallest" : "5.789294",
+          "sum" : "390.821040",
+          "null" : 2,
+          "average" : "7.373981886792453",
+          "largest" : "9.782607",
+          "top" : [ {
+            "count" : 20,
+            "item" : "9.495564"
+          }, {
+            "count" : 19,
+            "item" : "7.387367"
+          }, {
+            "count" : 18,
+            "item" : "8.321752"
+          }, {
+            "count" : 17,
+            "item" : "5.934390"
+          }, {
+            "count" : 16,
+            "item" : "7.181412"
+          }, {
+            "count" : 15,
+            "item" : "7.892242"
+          }, {
+            "count" : 14,
+            "item" : "9.782607"
+          }, {
+            "count" : 13,
+            "item" : "7.580965"
+          }, {
+            "count" : 12,
+            "item" : "7.054300"
+          }, {
+            "count" : 11,
+            "item" : "7.512531"
+          }, {
+            "count" : 10,
+            "item" : "8.855967"
+          }, {
+            "count" : 9,
+            "item" : "8.183563"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 222145017,
+        "name" : "Percent of Low Risk Long Stay Residents Who Lose Control of Their Bowel or Bladder",
+        "dataTypeName" : "percent",
+        "fieldName" : "percent_of_low_risk_long_stay_residents_who_lose_control_of_their_bowel_or_bladder",
+        "position" : 20,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 12093604,
+        "width" : 582,
+        "cachedContents" : {
+          "non_null" : 52,
+          "smallest" : "32.048359",
+          "sum" : "2402.254533",
+          "null" : 3,
+          "average" : "46.19720255769231",
+          "largest" : "61.173138",
+          "top" : [ {
+            "count" : 20,
+            "item" : "52.914967"
+          }, {
+            "count" : 19,
+            "item" : "44.469489"
+          }, {
+            "count" : 18,
+            "item" : "51.836419"
+          }, {
+            "count" : 17,
+            "item" : "45.997925"
+          }, {
+            "count" : 16,
+            "item" : "49.616884"
+          }, {
+            "count" : 15,
+            "item" : "51.735285"
+          }, {
+            "count" : 14,
+            "item" : "51.295305"
+          }, {
+            "count" : 13,
+            "item" : "52.155260"
+          }, {
+            "count" : 12,
+            "item" : "44.819025"
+          }, {
+            "count" : 11,
+            "item" : "43.565291"
+          }, {
+            "count" : 10,
+            "item" : "41.931925"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 222145018,
+        "name" : "Percent of Long Stay Residents with a Catheter Inserted and Left in Their Bladder",
+        "dataTypeName" : "percent",
+        "fieldName" : "percent_of_long_stay_residents_with_a_catheter_inserted_and_left_in_their_bladder",
+        "position" : 21,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 12093605,
+        "width" : 550,
+        "cachedContents" : {
+          "non_null" : 53,
+          "smallest" : "0.000000",
+          "sum" : "158.478808",
+          "null" : 2,
+          "average" : "2.990166188679245",
+          "largest" : "5.033225",
+          "top" : [ {
+            "count" : 20,
+            "item" : "1.697245"
+          }, {
+            "count" : 19,
+            "item" : "3.888738"
+          }, {
+            "count" : 18,
+            "item" : "3.240009"
+          }, {
+            "count" : 17,
+            "item" : "3.181659"
+          }, {
+            "count" : 16,
+            "item" : "2.827289"
+          }, {
+            "count" : 15,
+            "item" : "2.629622"
+          }, {
+            "count" : 14,
+            "item" : "0.000000"
+          }, {
+            "count" : 13,
+            "item" : "3.625828"
+          }, {
+            "count" : 12,
+            "item" : "3.236012"
+          }, {
+            "count" : 11,
+            "item" : "3.582722"
+          }, {
+            "count" : 10,
+            "item" : "3.854314"
+          }, {
+            "count" : 9,
+            "item" : "3.831630"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 222145019,
+        "name" : "Percent of Long Stay Residents With a Urinary Tract Infection",
+        "dataTypeName" : "percent",
+        "fieldName" : "percent_of_long_stay_residents_with_a_urinary_tract_infection",
+        "position" : 22,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 12093606,
+        "width" : 436,
+        "cachedContents" : {
+          "non_null" : 53,
+          "smallest" : "2.173913",
+          "sum" : "295.423958",
+          "null" : 2,
+          "average" : "5.574036943396226",
+          "largest" : "7.380917",
+          "top" : [ {
+            "count" : 20,
+            "item" : "7.357600"
+          }, {
+            "count" : 19,
+            "item" : "5.452598"
+          }, {
+            "count" : 18,
+            "item" : "7.071416"
+          }, {
+            "count" : 17,
+            "item" : "6.010097"
+          }, {
+            "count" : 16,
+            "item" : "5.407885"
+          }, {
+            "count" : 15,
+            "item" : "6.261085"
+          }, {
+            "count" : 14,
+            "item" : "2.173913"
+          }, {
+            "count" : 13,
+            "item" : "5.555272"
+          }, {
+            "count" : 12,
+            "item" : "6.083292"
+          }, {
+            "count" : 11,
+            "item" : "4.382312"
+          }, {
+            "count" : 10,
+            "item" : "7.185626"
+          }, {
+            "count" : 9,
+            "item" : "4.847649"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 222145020,
+        "name" : "Percent of Long Stay Residents Who Have Depressive Symptoms",
+        "dataTypeName" : "percent",
+        "fieldName" : "percent_of_long_stay_residents_who_have_depressive_symptoms",
+        "position" : 23,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 12093607,
+        "width" : 466,
+        "cachedContents" : {
+          "non_null" : 54,
+          "smallest" : "0.000000",
+          "sum" : "288.839624",
+          "null" : 1,
+          "average" : "5.348881925925926",
+          "largest" : "14.924541",
+          "top" : [ {
+            "count" : 20,
+            "item" : "4.507572"
+          }, {
+            "count" : 19,
+            "item" : "2.143741"
+          }, {
+            "count" : 18,
+            "item" : "6.697762"
+          }, {
+            "count" : 17,
+            "item" : "3.078337"
+          }, {
+            "count" : 16,
+            "item" : "7.165887"
+          }, {
+            "count" : 15,
+            "item" : "13.625372"
+          }, {
+            "count" : 14,
+            "item" : "3.314459"
+          }, {
+            "count" : 13,
+            "item" : "1.234568"
+          }, {
+            "count" : 12,
+            "item" : "12.450662"
+          }, {
+            "count" : 11,
+            "item" : "10.053813"
+          }, {
+            "count" : 10,
+            "item" : "6.026683"
+          }, {
+            "count" : 9,
+            "item" : "7.058651"
+          }, {
+            "count" : 8,
+            "item" : "6.732636"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 222145022,
+        "name" : "Percent of Long Stay Residents Who Were Physically Restrained",
+        "dataTypeName" : "percent",
+        "fieldName" : "percent_of_long_stay_residents_who_were_physically_restrained",
+        "position" : 24,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 12093608,
+        "width" : 460,
+        "cachedContents" : {
+          "non_null" : 54,
+          "smallest" : "0.000000",
+          "sum" : "49.085484",
+          "null" : 1,
+          "average" : "0.9089904444444444",
+          "largest" : "2.676762",
+          "top" : [ {
+            "count" : 20,
+            "item" : "0.225291"
+          }, {
+            "count" : 19,
+            "item" : "2.202185"
+          }, {
+            "count" : 18,
+            "item" : "0.525737"
+          }, {
+            "count" : 17,
+            "item" : "2.258442"
+          }, {
+            "count" : 16,
+            "item" : "0.825813"
+          }, {
+            "count" : 15,
+            "item" : "1.361497"
+          }, {
+            "count" : 14,
+            "item" : "0.639193"
+          }, {
+            "count" : 13,
+            "item" : "1.086958"
+          }, {
+            "count" : 12,
+            "item" : "0.150891"
+          }, {
+            "count" : 11,
+            "item" : "0.812698"
+          }, {
+            "count" : 10,
+            "item" : "0.457797"
+          }, {
+            "count" : 9,
+            "item" : "1.250386"
+          }, {
+            "count" : 8,
+            "item" : "1.102790"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 222145024,
+        "name" : "Percent of Long Stay Residents Experiencing One or More Falls with Major Injury",
+        "dataTypeName" : "percent",
+        "fieldName" : "percent_of_long_stay_residents_experiencing_one_or_more_falls_with_major_injury",
+        "position" : 25,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 12093609,
+        "width" : 553,
+        "cachedContents" : {
+          "non_null" : 54,
+          "smallest" : "0.000000",
+          "sum" : "178.785452",
+          "null" : 1,
+          "average" : "3.310841703703704",
+          "largest" : "5.224789",
+          "top" : [ {
+            "count" : 20,
+            "item" : "3.732196"
+          }, {
+            "count" : 19,
+            "item" : "3.041355"
+          }, {
+            "count" : 18,
+            "item" : "5.050513"
+          }, {
+            "count" : 17,
+            "item" : "3.591503"
+          }, {
+            "count" : 16,
+            "item" : "3.444923"
+          }, {
+            "count" : 15,
+            "item" : "3.418758"
+          }, {
+            "count" : 14,
+            "item" : "3.323737"
+          }, {
+            "count" : 13,
+            "item" : "1.086958"
+          }, {
+            "count" : 12,
+            "item" : "3.996898"
+          }, {
+            "count" : 11,
+            "item" : "2.624509"
+          }, {
+            "count" : 10,
+            "item" : "3.096365"
+          }, {
+            "count" : 9,
+            "item" : "4.634509"
+          }, {
+            "count" : 8,
+            "item" : "4.604489"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 222145025,
+        "name" : "Percent of Long Stay Residents Assessed and Appropriately Given the Seasonal Influenza Vaccine",
+        "dataTypeName" : "percent",
+        "fieldName" : "percent_of_long_stay_residents_assessed_and_appropriately_given_the_seasonal_influenza_vaccine",
+        "position" : 26,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 12093610,
+        "width" : 657,
+        "cachedContents" : {
+          "non_null" : 54,
+          "smallest" : "50.549453",
+          "sum" : "4975.575766",
+          "null" : 1,
+          "average" : "92.14029196296296",
+          "largest" : "100.000000",
+          "top" : [ {
+            "count" : 20,
+            "item" : "92.265536"
+          }, {
+            "count" : 19,
+            "item" : "92.316809"
+          }, {
+            "count" : 18,
+            "item" : "95.987473"
+          }, {
+            "count" : 17,
+            "item" : "92.589936"
+          }, {
+            "count" : 16,
+            "item" : "90.110806"
+          }, {
+            "count" : 15,
+            "item" : "95.996561"
+          }, {
+            "count" : 14,
+            "item" : "89.433824"
+          }, {
+            "count" : 13,
+            "item" : "50.549453"
+          }, {
+            "count" : 12,
+            "item" : "90.821507"
+          }, {
+            "count" : 11,
+            "item" : "91.572717"
+          }, {
+            "count" : 10,
+            "item" : "93.989671"
+          }, {
+            "count" : 9,
+            "item" : "93.318907"
+          }, {
+            "count" : 8,
+            "item" : "93.374991"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 222145026,
+        "name" : "Percent of Long Stay Residents Assessed and Appropriately Given the Pneumococcal Vaccine",
+        "dataTypeName" : "percent",
+        "fieldName" : "percent_of_long_stay_residents_assessed_and_appropriately_given_the_pneumococcal_vaccine",
+        "position" : 27,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 12093611,
+        "width" : 631,
+        "cachedContents" : {
+          "non_null" : 54,
+          "smallest" : "34.782607",
+          "sum" : "5001.051080",
+          "null" : 1,
+          "average" : "92.61205703703704",
+          "largest" : "100.000000",
+          "top" : [ {
+            "count" : 20,
+            "item" : "95.261179"
+          }, {
+            "count" : 19,
+            "item" : "95.872941"
+          }, {
+            "count" : 18,
+            "item" : "96.315086"
+          }, {
+            "count" : 17,
+            "item" : "92.514924"
+          }, {
+            "count" : 16,
+            "item" : "88.322730"
+          }, {
+            "count" : 15,
+            "item" : "95.392800"
+          }, {
+            "count" : 14,
+            "item" : "91.648048"
+          }, {
+            "count" : 13,
+            "item" : "34.782607"
+          }, {
+            "count" : 12,
+            "item" : "93.128775"
+          }, {
+            "count" : 11,
+            "item" : "95.003909"
+          }, {
+            "count" : 10,
+            "item" : "97.895658"
+          }, {
+            "count" : 9,
+            "item" : "95.276319"
+          }, {
+            "count" : 8,
+            "item" : "84.965634"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 222145027,
+        "name" : "Percent of Long Stay Residents Who Received an Antipsychotic Medication",
+        "dataTypeName" : "percent",
+        "fieldName" : "percent_of_long_stay_residents_who_received_an_antipsychotic_medication",
+        "position" : 28,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 12093612,
+        "width" : 521,
+        "cachedContents" : {
+          "non_null" : 54,
+          "smallest" : "3.773585",
+          "sum" : "959.978472",
+          "null" : 1,
+          "average" : "17.77737911111111",
+          "largest" : "24.976796",
+          "top" : [ {
+            "count" : 20,
+            "item" : "17.166944"
+          }, {
+            "count" : 19,
+            "item" : "15.195303"
+          }, {
+            "count" : 18,
+            "item" : "18.181288"
+          }, {
+            "count" : 17,
+            "item" : "22.731722"
+          }, {
+            "count" : 16,
+            "item" : "24.097962"
+          }, {
+            "count" : 15,
+            "item" : "22.759423"
+          }, {
+            "count" : 14,
+            "item" : "18.161575"
+          }, {
+            "count" : 13,
+            "item" : "5.333333"
+          }, {
+            "count" : 12,
+            "item" : "18.941046"
+          }, {
+            "count" : 11,
+            "item" : "17.243770"
+          }, {
+            "count" : 10,
+            "item" : "13.696498"
+          }, {
+            "count" : 9,
+            "item" : "16.866125"
+          }, {
+            "count" : 8,
+            "item" : "14.625245"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 222145028,
+        "name" : "Percent of Short Stay Residents Who Self Report Moderate to Severe Pain",
+        "dataTypeName" : "percent",
+        "fieldName" : "percent_of_short_stay_residents_who_self_report_moderate_to_severe_pain",
+        "position" : 29,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 12093613,
+        "width" : 519,
+        "cachedContents" : {
+          "non_null" : 55,
+          "smallest" : "10.462418",
+          "sum" : "1071.748067",
+          "null" : 0,
+          "average" : "19.48632849090909",
+          "largest" : "35.314761",
+          "top" : [ {
+            "count" : 20,
+            "item" : "33.391216"
+          }, {
+            "count" : 19,
+            "item" : "19.404689"
+          }, {
+            "count" : 18,
+            "item" : "14.773077"
+          }, {
+            "count" : 17,
+            "item" : "18.166247"
+          }, {
+            "count" : 16,
+            "item" : "15.474642"
+          }, {
+            "count" : 15,
+            "item" : "17.875983"
+          }, {
+            "count" : 14,
+            "item" : "21.917431"
+          }, {
+            "count" : 13,
+            "item" : "17.616268"
+          }, {
+            "count" : 12,
+            "item" : "24.719100"
+          }, {
+            "count" : 11,
+            "item" : "22.826716"
+          }, {
+            "count" : 10,
+            "item" : "20.116121"
+          }, {
+            "count" : 9,
+            "item" : "20.723692"
+          }, {
+            "count" : 8,
+            "item" : "21.046170"
+          }, {
+            "count" : 7,
+            "item" : "24.903505"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 222145029,
+        "name" : "Percent of Short Stay Residents With Pressure Ulcers That Are New or Worsened",
+        "dataTypeName" : "percent",
+        "fieldName" : "percent_of_short_stay_residents_with_pressure_ulcers_that_are_new_or_worsened",
+        "position" : 30,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 12093614,
+        "width" : 559,
+        "cachedContents" : {
+          "non_null" : 55,
+          "smallest" : "0.000000",
+          "sum" : "48.678973",
+          "null" : 0,
+          "average" : "0.8850722363636364",
+          "largest" : "2.153757",
+          "top" : [ {
+            "count" : 20,
+            "item" : "0.486509"
+          }, {
+            "count" : 19,
+            "item" : "1.050298"
+          }, {
+            "count" : 18,
+            "item" : "0.788055"
+          }, {
+            "count" : 17,
+            "item" : "1.152912"
+          }, {
+            "count" : 16,
+            "item" : "0.626620"
+          }, {
+            "count" : 15,
+            "item" : "0.806473"
+          }, {
+            "count" : 14,
+            "item" : "0.769369"
+          }, {
+            "count" : 13,
+            "item" : "0.823938"
+          }, {
+            "count" : 12,
+            "item" : "0.000000"
+          }, {
+            "count" : 11,
+            "item" : "0.675548"
+          }, {
+            "count" : 10,
+            "item" : "0.817705"
+          }, {
+            "count" : 9,
+            "item" : "0.799208"
+          }, {
+            "count" : 8,
+            "item" : "1.144526"
+          }, {
+            "count" : 7,
+            "item" : "0.439210"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 222145030,
+        "name" : "Percent of Short Stay Residents Who Were Assessed and Appropriately Given the Seasonal Influenza Vaccine",
+        "dataTypeName" : "percent",
+        "fieldName" : "percent_of_short_stay_residents_who_were_assessed_and_appropriately_given_the_seasonal_influenza_vaccine",
+        "position" : 31,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 12093615,
+        "width" : 720,
+        "cachedContents" : {
+          "non_null" : 55,
+          "smallest" : "48.314606",
+          "sum" : "4537.585916",
+          "null" : 0,
+          "average" : "82.50156210909091",
+          "largest" : "95.384617",
+          "top" : [ {
+            "count" : 20,
+            "item" : "92.870585"
+          }, {
+            "count" : 19,
+            "item" : "82.141075"
+          }, {
+            "count" : 18,
+            "item" : "84.379716"
+          }, {
+            "count" : 17,
+            "item" : "82.547955"
+          }, {
+            "count" : 16,
+            "item" : "83.386489"
+          }, {
+            "count" : 15,
+            "item" : "72.986766"
+          }, {
+            "count" : 14,
+            "item" : "89.254175"
+          }, {
+            "count" : 13,
+            "item" : "81.120333"
+          }, {
+            "count" : 12,
+            "item" : "48.314606"
+          }, {
+            "count" : 11,
+            "item" : "80.565729"
+          }, {
+            "count" : 10,
+            "item" : "85.025031"
+          }, {
+            "count" : 9,
+            "item" : "87.586934"
+          }, {
+            "count" : 8,
+            "item" : "81.210240"
+          }, {
+            "count" : 7,
+            "item" : "81.556569"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 222145032,
+        "name" : "Percent of Short Stay Residents Assessed and Appropriately Given the Pneumococcal Vaccine",
+        "dataTypeName" : "percent",
+        "fieldName" : "percent_of_short_stay_residents_assessed_and_appropriately_given_the_pneumococcal_vaccine",
+        "position" : 32,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 12093616,
+        "width" : 631,
+        "cachedContents" : {
+          "non_null" : 55,
+          "smallest" : "50.476194",
+          "sum" : "4507.446735",
+          "null" : 0,
+          "average" : "81.953577",
+          "largest" : "98.387098",
+          "top" : [ {
+            "count" : 20,
+            "item" : "92.926010"
+          }, {
+            "count" : 19,
+            "item" : "82.912283"
+          }, {
+            "count" : 18,
+            "item" : "86.522442"
+          }, {
+            "count" : 17,
+            "item" : "79.360626"
+          }, {
+            "count" : 16,
+            "item" : "81.385060"
+          }, {
+            "count" : 15,
+            "item" : "71.435173"
+          }, {
+            "count" : 14,
+            "item" : "89.248497"
+          }, {
+            "count" : 13,
+            "item" : "80.457976"
+          }, {
+            "count" : 12,
+            "item" : "50.476194"
+          }, {
+            "count" : 11,
+            "item" : "79.289764"
+          }, {
+            "count" : 10,
+            "item" : "86.175674"
+          }, {
+            "count" : 9,
+            "item" : "90.291541"
+          }, {
+            "count" : 8,
+            "item" : "82.163658"
+          }, {
+            "count" : 7,
+            "item" : "77.208489"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 222145033,
+        "name" : "Percent of Short Stay Residents Who Newly Received an Antipsychotic Medication",
+        "dataTypeName" : "percent",
+        "fieldName" : "percent_of_short_stay_residents_who_newly_received_an_antipsychotic_medication",
+        "position" : 33,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 12093617,
+        "width" : 562,
+        "cachedContents" : {
+          "non_null" : 55,
+          "smallest" : "0.000000",
+          "sum" : "115.407043",
+          "null" : 0,
+          "average" : "2.098309872727273",
+          "largest" : "3.659434",
+          "top" : [ {
+            "count" : 20,
+            "item" : "0.740770"
+          }, {
+            "count" : 19,
+            "item" : "1.943177"
+          }, {
+            "count" : 18,
+            "item" : "2.724702"
+          }, {
+            "count" : 17,
+            "item" : "2.062398"
+          }, {
+            "count" : 16,
+            "item" : "2.644881"
+          }, {
+            "count" : 15,
+            "item" : "3.349063"
+          }, {
+            "count" : 14,
+            "item" : "1.783188"
+          }, {
+            "count" : 13,
+            "item" : "2.384039"
+          }, {
+            "count" : 12,
+            "item" : "0.000000"
+          }, {
+            "count" : 11,
+            "item" : "2.145626"
+          }, {
+            "count" : 10,
+            "item" : "1.988656"
+          }, {
+            "count" : 9,
+            "item" : "1.237935"
+          }, {
+            "count" : 8,
+            "item" : "2.107947"
+          }, {
+            "count" : 7,
+            "item" : "2.425091"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 222145034,
+        "name" : "Processing Date",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "processing_date",
+        "position" : 34,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 12093618,
+        "width" : 280,
+        "cachedContents" : {
+          "non_null" : 55,
+          "smallest" : "2015-09-01T00:00:00",
+          "null" : 0,
+          "largest" : "2015-09-01T00:00:00",
+          "top" : [ {
+            "count" : 20,
+            "item" : "2015-09-01T00:00:00"
+          } ]
+        },
+        "format" : {
+          "view" : "date",
+          "align" : "left"
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0"
+      },
+      "owner" : {
+        "id" : "drs7-75yr",
+        "displayName" : "cms",
+        "profileImageUrlLarge" : "/api/users/drs7-75yr/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/drs7-75yr/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/drs7-75yr/profile_images/TINY",
+        "roleName" : "administrator",
+        "screenName" : "cms",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "drs7-75yr",
+        "displayName" : "cms",
+        "profileImageUrlLarge" : "/api/users/drs7-75yr/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/drs7-75yr/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/drs7-75yr/profile_images/TINY",
+        "roleName" : "administrator",
+        "screenName" : "cms",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "tags" : [ "nursing home", "nhc", "general information" ],
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [ [ 1, "A1FE76E5-1854-4366-9B47-2A299894816D", 1, 1442436449, "391130", 1442436449, "391130", null, "NATION", "6.8", "3.3", "7.0", "3.3", "7.0", "3.4", "2.46", "0.84", "0.84", "1.68", "4.14", "0.10", "0.3", "7197", "15.823590", "7.174879", "5.913885", "7.242919", "45.523244", "3.039377", "5.524126", "5.884069", "1.021947", "3.247001", "92.749383", "93.606040", "19.013399", "18.029287", "0.873853", "82.462210", "81.794006", "2.347693", "2015-09-01T00:00:00" ]
+, [ 2, "601E0726-1F3D-46D8-8657-C3C20B712340", 2, 1442436449, "391130", 1442436449, "391130", null, "AK", "11.9", "3.7", "12.4", "2.9", "8.6", "2.8", "3.99", "0.80", "2.07", "2.87", "6.86", "0.11", "0.7", "6520", "16.435925", "19.273335", "3.503612", "7.019536", "37.342913", "4.031293", "5.538621", "6.378470", "0.410371", "4.520515", "90.490780", "96.466503", "16.072924", "35.314761", "1.003411", "82.221967", "84.329686", "0.777587", "2015-09-01T00:00:00" ]
+, [ 3, "7CD7404A-A6D1-4753-A4D9-E885502D42B4", 3, 1442436449, "391130", 1442436449, "391130", null, "AL", "5.0", "3.7", "4.3", "4.4", "4.2", "4.2", "2.65", "1.02", "0.69", "1.71", "4.36", "0.05", "0.2", "7045", "13.676488", "5.933266", "5.588086", "8.040315", "38.558688", "2.598508", "4.973500", "1.676165", "1.189811", "3.042390", "92.046022", "92.956863", "21.944584", "15.697479", "0.543827", "82.739024", "82.419801", "2.616548", "2015-09-01T00:00:00" ]
+, [ 4, "D20B9FD6-1941-46D5-AB5B-7B92FC2837B8", 4, 1442436449, "391130", 1442436449, "391130", null, "AR", "6.0", "1.0", "6.4", "1.2", "7.7", "1.3", "2.79", "0.98", "0.52", "1.51", "4.30", "0.06", "0.6", "9827", "15.695908", "6.919937", "5.574349", "7.204096", "34.515248", "2.958889", "4.867675", "2.775844", "0.827064", "3.489066", "93.680900", "96.141368", "18.065619", "16.463948", "0.805734", "85.521058", "85.304406", "2.157322", "2015-09-01T00:00:00" ]
+, [ 5, "58673FC6-7A11-4074-94AD-6FD08F41E531", 5, 1442436449, "391130", 1442436449, "391130", null, "AZ", "6.7", "3.6", "7.6", "3.5", "7.6", "3.4", "2.52", "0.92", "1.00", "1.92", "4.44", "0.14", "0.2", "6400", "15.672020", "9.450951", "6.128873", "6.421817", "54.984561", "3.574294", "5.758510", "3.048758", "0.239422", "2.698979", "93.570175", "94.488114", "18.352952", "21.330376", "0.501615", "87.885832", "88.421204", "1.960463", "2015-09-01T00:00:00" ]
+, [ 6, "4AAEBA01-1821-4EBC-A135-34A0343671A4", 6, 1442436449, "391130", 1442436449, "391130", null, "CA", "10.5", "4.8", "11.0", "5.1", "10.8", "5.4", "2.66", "0.97", "0.91", "1.88", "4.54", "0.14", "0.2", "3643", "11.462186", "4.739009", "6.097089", "5.976738", "44.822258", "3.040152", "4.177963", "1.354358", "1.415175", "1.671921", "92.847851", "94.313996", "14.326207", "14.402311", "0.634004", "81.860617", "80.375056", "1.746021", "2015-09-01T00:00:00" ]
+, [ 7, "81E8193D-0112-4E59-BA46-AC3FE12FA84E", 7, 1442436449, "391130", 1442436449, "391130", null, "CO", "8.8", "4.8", "8.3", "5.9", "9.0", "6.7", "2.47", "0.67", "1.08", "1.75", "4.22", "0.12", "0.5", "3024", "15.848644", "8.434211", "4.131719", "8.216487", "49.914843", "3.465839", "4.141829", "4.805192", "0.724158", "3.651199", "92.533222", "91.349954", "16.241927", "19.980080", "0.855018", "81.234892", "76.708185", "1.887848", "2015-09-01T00:00:00" ]
+, [ 8, "A43FCBEF-A9EB-449B-9E0C-A34CC24C7962", 8, 1442436449, "391130", 1442436449, "391130", null, "CT", "7.6", "1.9", "8.0", "1.7", "8.8", "2.0", "2.42", "0.74", "0.90", "1.64", "4.07", "0.13", "0.7", "3207", "16.415696", "5.468696", "4.389186", "6.641321", "43.571886", "2.231499", "4.387310", "3.084332", "0.791868", "2.937064", "90.477499", "94.676488", "20.101242", "18.755182", "0.784231", "81.102842", "80.929028", "2.065164", "2015-09-01T00:00:00" ]
+, [ 9, "1BBA8DD2-EF53-4D1B-B2F9-3812FFBD6036", 9, 1442436449, "391130", 1442436449, "391130", null, "DC", "15.7", "2.4", "15.9", "2.3", "15.7", "2.2", "2.79", "0.85", "1.44", "2.29", "5.08", "0.21", "0.5", "35566", "14.291070", "1.452368", "8.610780", "5.910888", "53.235805", "1.071686", "5.760026", "2.228789", "0.393024", "1.061101", "93.004688", "88.688987", "14.761883", "10.462418", "0.680218", "74.801169", "72.864596", "1.209676", "2015-09-01T00:00:00" ]
+, [ 10, "EF813093-16C2-4E59-B7A7-A70502EA2068", 10, 1442436449, "391130", 1442436449, "391130", null, "DE", "10.7", "1.1", "13.8", "1.0", "15.5", "1.2", "2.50", "0.91", "1.07", "1.98", "4.49", "0.10", "0.3", "17300", "15.726671", "5.699804", "4.370773", "6.062271", "46.761559", "1.606030", "6.863588", "2.551962", "0.479405", "3.252442", "95.191760", "96.984937", "14.722609", "14.818724", "0.687645", "86.781623", "84.903539", "1.710155", "2015-09-01T00:00:00" ]
+, [ 11, "2149153F-8BC2-4FE6-AD64-818D041B9CD2", 11, 1442436449, "391130", 1442436449, "391130", null, "FL", "5.9", "2.3", "5.7", "2.3", "6.4", "2.1", "2.81", "0.96", "0.76", "1.71", "4.53", "0.13", "0.4", "13475", "14.100664", "4.963326", "5.827257", "7.538931", "50.520558", "2.724502", "5.802329", "2.146842", "1.236105", "2.750213", "91.679249", "94.133519", "20.574598", "15.277503", "0.558155", "84.824728", "86.668849", "2.877965", "2015-09-01T00:00:00" ]
+, [ 12, "408376C5-F3C6-4EA7-A4B5-4A23F5F25718", 12, 1442436449, "391130", 1442436449, "391130", null, "GA", "2.5", "3.7", "3.6", "2.5", "4.3", "2.5", "2.20", "1.06", "0.55", "1.61", "3.81", "0.09", "0.2", "7582", "16.734863", "7.400738", "6.807671", "8.131189", "46.677008", "2.178632", "5.710064", "7.366581", "0.908871", "3.275905", "92.102536", "94.476013", "20.130758", "16.745534", "1.118421", "81.771234", "82.143000", "2.933505", "2015-09-01T00:00:00" ]
+, [ 13, "6EB9F3B9-3230-4A55-BA9F-91AA5ABB98A0", 13, 1442436449, "391130", 1442436449, "391130", null, "GU", "12.0", "6.0", "12.0", "9.0", "20.0", "0.0", "3.81", "2.22", "4.19", "6.41", "10.22", "0.32", "0.0", "0", null, null, null, null, null, null, null, null, null, null, null, null, null, "15.769233", "2.153757", "95.384617", "98.387098", "0.000000", "2015-09-01T00:00:00" ]
+, [ 14, "1AA5D06A-3E33-40A9-A4FC-A869C5AFF81F", 14, 1442436449, "391130", 1442436449, "391130", null, "HI", "7.9", "0.3", "7.5", "0.4", "7.8", "0.3", "2.87", "0.44", "1.66", "2.10", "4.97", "0.13", "0.2", "1012", "12.036403", "5.905953", "3.026119", "7.230345", "51.616991", "2.039723", "3.789061", "2.920703", "0.927560", "1.794618", "94.578347", "95.872223", "9.654023", "13.396618", "0.329434", "81.858484", "80.584701", "0.780591", "2015-09-01T00:00:00" ]
+, [ 15, "5AA4F598-AD8B-4768-888F-05ECB9D35212", 15, 1442436449, "391130", 1442436449, "391130", null, "IA", "5.3", "3.5", "5.2", "3.7", "5.3", "4.3", "2.39", "0.62", "0.81", "1.44", "3.83", "0.05", "0.3", "3797", "16.693589", "7.796615", "4.133732", "6.477324", "39.605266", "4.024069", "6.545098", "6.339463", "0.569620", "3.587981", "95.089085", "96.225763", "18.672068", "18.213277", "1.096707", "87.483717", "86.827470", "1.752496", "2015-09-01T00:00:00" ]
+, [ 16, "211A0419-6948-49C3-856E-7590949E1760", 16, 1442436449, "391130", 1442436449, "391130", null, "ID", "11.3", "2.7", "10.7", "2.9", "10.9", "3.2", "2.79", "0.80", "1.18", "1.98", "4.77", "0.17", "0.9", "3372", "14.386195", "10.478171", "3.568386", "6.380440", "47.957751", "3.248086", "6.007470", "6.096029", "0.724472", "2.963389", "93.082680", "96.620886", "17.323495", "22.027086", "0.614398", "85.690955", "87.804469", "2.206251", "2015-09-01T00:00:00" ]
+, [ 17, "C4C9F228-353C-4B2D-8279-0A5C283F2658", 17, 1442436449, "391130", 1442436449, "391130", null, "IL", "7.7", "6.6", "7.2", "6.5", "6.5", "6.1", "2.23", "0.60", "0.93", "1.53", "3.75", "0.11", "0.3", "5770", "15.246479", "5.602839", "6.580242", "7.780574", "38.807916", "3.499354", "5.428498", "14.924541", "0.964161", "3.387701", "92.256062", "92.432889", "23.450148", "16.074124", "1.009895", "78.827335", "78.981628", "2.495817", "2015-09-01T00:00:00" ]
+, [ 18, "0D8D2B4D-1FD8-4F25-9BD3-BE6798AF5EDB", 18, 1442436449, "391130", 1442436449, "391130", null, "IN", "7.2", "3.7", "7.6", "4.0", "8.4", "3.8", "2.29", "0.99", "0.97", "1.96", "4.25", "0.11", "0.3", "3608", "17.055891", "6.687087", "6.555620", "7.793431", "48.672776", "2.793572", "5.263530", "5.719018", "0.782636", "3.316349", "93.727991", "93.381445", "18.950697", "18.399480", "1.144887", "84.164727", "81.410726", "2.694765", "2015-09-01T00:00:00" ]
+, [ 19, "AD14D016-6CEE-4388-8DC1-BB644A1520FA", 19, 1442436449, "391130", 1442436449, "391130", null, "KS", "10.4", "4.2", "10.4", "4.0", "9.4", "3.7", "2.73", "0.63", "0.83", "1.47", "4.20", "0.06", "0.3", "3682", "17.199370", "10.218789", "5.291499", "7.534584", "39.684116", "2.840894", "7.380917", "7.336738", "0.387862", "4.782059", "94.628197", "93.916925", "21.562159", "21.956295", "1.130194", "81.838417", "77.164123", "3.034196", "2015-09-01T00:00:00" ]
+, [ 20, "2890CD1A-0240-44AA-A5AD-D1AC647A4D6F", 20, 1442436449, "391130", 1442436449, "391130", null, "KY", "5.8", "1.8", "5.4", "2.5", "5.9", "4.2", "2.48", "0.91", "0.95", "1.86", "4.34", "0.09", "0.4", "36280", "17.342752", "8.504787", "6.554323", "8.183080", "49.510347", "3.602101", "6.906512", "3.525998", "1.943967", "3.597238", "94.394541", "96.104658", "21.276574", "20.974369", "0.927427", "86.811466", "87.190824", "3.229046", "2015-09-01T00:00:00" ]
+, [ 21, "1C63C81D-86F6-4EEF-A5D5-1F4EE47E7BFE", 21, 1442436449, "391130", 1442436449, "391130", null, "LA", "4.9", "1.3", "5.4", "1.6", "7.3", "2.3", "2.33", "1.00", "0.53", "1.53", "3.86", "0.07", "0.3", "14796", "18.790520", "6.775520", "8.078861", "7.769142", "37.435420", "2.608297", "6.244864", "2.044406", "2.018597", "3.350045", "93.224910", "94.040370", "24.976796", "17.629408", "1.131945", "81.254511", "82.833212", "3.659434", "2015-09-01T00:00:00" ]
+, [ 22, "D48BE002-0158-4BE3-8DBC-25CC2FD2B563", 22, 1442436449, "391130", 1442436449, "391130", null, "MA", "4.0", "1.1", "3.9", "1.0", "3.5", "0.6", "2.37", "0.81", "0.94", "1.75", "4.12", "0.10", "0.6", "7155", "15.016387", "5.175739", "4.666845", "6.177759", "52.459205", "2.480636", "4.923189", "3.875231", "1.313684", "2.948354", "93.663557", "94.877104", "19.884973", "18.198965", "0.815373", "84.822610", "82.806196", "1.885897", "2015-09-01T00:00:00" ]
+, [ 23, "9B36931D-2179-4BA4-BE27-BD33AA411178", 23, 1442436449, "391130", 1442436449, "391130", null, "MD", "10.5", "3.9", "11.7", "3.6", "10.2", "3.2", "2.39", "0.87", "0.97", "1.84", "4.23", "0.14", "0.1", "7481", "18.470895", "4.925910", "6.684397", "6.478770", "56.540601", "2.390142", "4.775138", "4.721372", "0.852519", "2.736510", "93.560270", "93.657411", "15.245135", "14.186760", "0.718464", "82.708107", "82.551012", "2.112931", "2015-09-01T00:00:00" ]
+, [ 24, "26BB3E77-7557-4F36-B3E7-BA825F141E67", 24, 1442436449, "391130", 1442436449, "391130", null, "ME", "3.7", "1.8", "4.6", "0.9", "4.2", "1.1", "3.13", "0.45", "1.14", "1.59", "4.71", "0.13", "0.2", "594", "14.196378", "10.118820", "4.086570", "8.820628", "61.173138", "3.165036", "5.671682", "10.214242", "0.280299", "3.732436", "91.403632", "95.312957", "19.111514", "22.714912", "0.955368", "83.391607", "85.321419", "1.615265", "2015-09-01T00:00:00" ]
+, [ 25, "B9CB8E25-98D3-4635-835E-B8AFC06407BD", 25, 1442436449, "391130", 1442436449, "391130", null, "MI", "7.6", "5.0", "8.8", "4.8", "9.2", "4.5", "2.56", "0.78", "0.92", "1.70", "4.27", "0.12", "0.8", "9488", "14.372884", "7.205800", "5.837949", "7.711985", "48.805586", "3.166559", "4.964368", "3.468565", "1.276336", "2.873507", "90.528745", "93.418495", "13.807537", "18.044066", "0.820905", "81.328092", "81.018193", "1.901878", "2015-09-01T00:00:00" ]
+, [ 26, "DEF2D085-A198-47D3-9A1F-80BBA9E06D9F", 26, 1442436449, "391130", 1442436449, "391130", null, "MN", "6.6", "1.6", "6.4", "1.5", "6.2", "1.6", "2.42", "0.73", "0.86", "1.59", "4.01", "0.09", "0.1", "1359", "14.963046", "9.432902", "3.967515", "7.062170", "48.401190", "3.030389", "4.381884", "5.289755", "0.474088", "4.145015", "93.451920", "94.574959", "14.205472", "22.973411", "0.927980", "82.629853", "82.957144", "1.636971", "2015-09-01T00:00:00" ]
+, [ 27, "BB0FA0F3-FAD6-40AF-8873-9D9F5049B361", 27, 1442436449, "391130", 1442436449, "391130", null, "MO", "6.0", "2.6", "6.2", "2.4", "6.6", "3.1", "2.54", "0.76", "0.62", "1.37", "3.92", "0.07", "0.1", "2667", "15.159671", "8.120162", "5.869929", "6.862043", "32.248474", "2.713895", "6.069318", "4.407064", "0.597277", "3.902442", "93.585993", "90.706767", "20.770618", "18.972375", "1.003574", "82.246430", "78.397590", "2.645780", "2015-09-01T00:00:00" ]
+, [ 28, "E6214C27-FD51-4493-BB5E-298BA434DC22", 28, 1442436449, "391130", 1442436449, "391130", null, "MS", "4.0", "1.1", "5.3", "1.3", "6.4", "1.2", "2.37", "0.97", "0.76", "1.73", "4.10", "0.05", "0.2", "12612", "17.468678", "9.722567", "7.759516", "7.995447", "46.798548", "2.365836", "6.152602", "1.871307", "2.676762", "2.859965", "94.702039", "96.411327", "23.105253", "19.883507", "0.822146", "86.431488", "88.039931", "3.061643", "2015-09-01T00:00:00" ]
+, [ 29, "6B42AA35-48A1-4904-B83A-15D927C8548B", 29, 1442436449, "391130", 1442436449, "391130", null, "MT", "7.9", "4.3", "9.3", "4.3", "7.9", "4.5", "2.53", "0.45", "0.97", "1.41", "3.94", "0.08", "0.1", "493", "15.320752", "11.707827", "5.603058", "7.514102", "43.493906", "3.615976", "6.264013", "6.732245", "1.123570", "4.325487", "94.687217", "92.220664", "16.723031", "24.073514", "1.149868", "81.551120", "76.851232", "2.132382", "2015-09-01T00:00:00" ]
+, [ 30, "B656B5EB-1340-4B73-8D9E-80AE3D7002FD", 30, 1442436449, "391130", 1442436449, "391130", null, "NC", "3.9", "3.4", "3.5", "3.1", "3.5", "3.2", "2.40", "0.89", "0.75", "1.64", "4.04", "0.10", "0.4", "17296", "19.216427", "7.966653", "7.295280", "8.762580", "54.001651", "2.859432", "6.283944", "4.308228", "0.861080", "3.143545", "91.169217", "92.746776", "15.208684", "19.005550", "0.794418", "82.955887", "82.537273", "2.179795", "2015-09-01T00:00:00" ]
+, [ 31, "90EE9B6E-2BCD-4031-A356-C60215CAB0D0", 31, 1442436449, "391130", 1442436449, "391130", null, "ND", "7.4", "2.3", "6.3", "1.6", "5.1", "1.2", "2.97", "0.63", "0.88", "1.51", "4.47", "0.08", "0.0", "0", "17.557420", "9.060129", "4.280473", "6.639940", "44.598446", "3.236549", "5.649825", "7.072220", "0.370054", "5.059235", "92.939561", "95.531371", "19.136649", "21.343337", "1.333079", "82.027625", "80.867863", "2.756915", "2015-09-01T00:00:00" ]
+, [ 32, "AA88975B-CAD5-41BB-A957-7DA5DFB8F0B1", 32, 1442436449, "391130", 1442436449, "391130", null, "NE", "5.9", "4.6", "5.9", "4.5", "6.6", "5.0", "2.50", "0.72", "0.85", "1.57", "4.08", "0.07", "0.1", "538", "16.537488", "9.375108", "3.968321", "6.684898", "45.237298", "4.033623", "6.488135", "6.592749", "0.383313", "4.628252", "93.534170", "94.370808", "21.575447", "19.638277", "1.261387", "82.816829", "80.955265", "2.220525", "2015-09-01T00:00:00" ]
+, [ 33, "1E609594-0B97-4655-8FDD-0002502E4266", 33, 1442436449, "391130", 1442436449, "391130", null, "NH", "2.6", "1.1", "2.9", "0.8", "2.9", "0.7", "2.59", "0.62", "0.98", "1.60", "4.19", "0.09", "0.2", "1121", "19.171286", "7.866022", "3.857651", "7.826462", "42.870555", "3.557539", "5.400242", "5.236401", "0.537463", "4.293024", "94.435982", "98.265450", "18.048634", "19.941536", "1.932649", "88.267987", "90.662582", "2.172808", "2015-09-01T00:00:00" ]
+, [ 34, "392BE49B-6216-4CD7-A95A-D0993764B999", 34, 1442436449, "391130", 1442436449, "391130", null, "NJ", "4.0", "1.5", "4.5", "1.8", "5.2", "1.5", "2.30", "0.77", "1.04", "1.81", "4.11", "0.18", "0.2", "2396", "13.267961", "3.377215", "6.937401", "7.505309", "36.426519", "2.570759", "4.244040", "3.585844", "1.582990", "2.584710", "94.641811", "94.858438", "14.277095", "11.920822", "0.835929", "86.483627", "86.620196", "1.551917", "2015-09-01T00:00:00" ]
+, [ 35, "FC7222D4-7088-4DFE-9C27-29C24D5948E4", 35, 1442436449, "391130", 1442436449, "391130", null, "NM", "6.8", "3.5", "3.9", "3.4", "4.3", "3.4", "2.36", "0.55", "0.87", "1.43", "3.79", "0.13", "0.7", "4806", "19.440596", "8.408140", "5.937731", "6.278420", "44.944234", "2.902308", "4.285921", "3.107976", "0.514640", "3.770785", "87.901169", "78.878817", "16.635849", "23.364449", "0.748023", "69.398560", "66.048687", "2.306533", "2015-09-01T00:00:00" ]
+, [ 36, "44F60A8A-52C3-438E-A275-DE566EE5FC43", 36, 1442436449, "391130", 1442436449, "391130", null, "NV", "9.3", "3.8", "12.1", "2.9", "13.6", "2.8", "2.40", "0.85", "1.13", "1.98", "4.38", "0.18", "0.4", "5074", "16.381193", "9.739195", "7.657457", "5.789294", "48.629269", "3.771105", "5.605150", "2.678400", "0.850333", "2.809798", "87.163774", "85.610040", "18.551400", "20.215813", "0.525470", "77.594724", "77.520951", "2.682760", "2015-09-01T00:00:00" ]
+, [ 37, "E5761F5D-AF05-4CE9-A184-251CE20D96EE", 37, 1442436449, "391130", 1442436449, "391130", null, "NY", "5.3", "2.5", "5.5", "2.8", "5.4", "2.5", "2.37", "0.87", "0.74", "1.62", "3.99", "0.11", "0.1", "1436", "14.415441", "4.641468", "7.435390", "6.323449", "46.523082", "2.565721", "5.329713", "11.061021", "1.506246", "2.739335", "94.763107", "96.445789", "17.327192", "13.287555", "0.908558", "83.967468", "82.758629", "2.299995", "2015-09-01T00:00:00" ]
+, [ 38, "C3C5106B-7D00-4F99-B984-A81EB1CD224F", 38, 1442436449, "391130", 1442436449, "391130", null, "OH", "4.9", "2.7", "5.1", "3.0", "5.7", "3.3", "2.33", "0.89", "0.86", "1.75", "4.09", "0.08", "0.4", "5048", "15.491289", "7.199680", "5.700795", "7.756031", "40.631074", "3.037598", "5.353234", "13.225064", "1.056458", "3.316037", "93.196809", "95.348252", "21.728230", "20.706564", "0.847655", "84.984204", "86.046485", "2.366686", "2015-09-01T00:00:00" ]
+, [ 39, "97CD23C5-324D-4DC2-BA70-A8E331012BBE", 39, 1442436449, "391130", 1442436449, "391130", null, "OK", "11.1", "3.3", "12.2", "3.8", "11.6", "3.9", "2.56", "0.85", "0.48", "1.32", "3.88", "0.03", "0.6", "12203", "14.780397", "12.398065", "7.254889", "8.256510", "32.048359", "3.783197", "7.275618", "7.024489", "0.572825", "5.224789", "94.169461", "87.677620", "20.735864", "25.623113", "1.574075", "82.189977", "75.256810", "2.531211", "2015-09-01T00:00:00" ]
+, [ 40, "8C9BA57C-56C0-4680-8357-11EDA32F3E4D", 40, 1442436449, "391130", 1442436449, "391130", null, "OR", "6.6", "5.5", "6.6", "5.1", "5.6", "6.5", "3.22", "0.68", "0.97", "1.65", "4.87", "0.17", "0.8", "1726", "12.931229", "13.181833", "6.587564", "7.673738", "48.894824", "5.033225", "6.444750", "4.454804", "0.582421", "2.570663", "89.786472", "92.982190", "17.328560", "24.369820", "0.921777", "79.997251", "79.932924", "1.558134", "2015-09-01T00:00:00" ]
+, [ 41, "8DEC0B10-9FC5-4BE2-A6E0-D7A420DCDFAA", 41, 1442436449, "391130", 1442436449, "391130", null, "PA", "6.4", "4.1", "5.6", "4.0", "4.9", "3.6", "2.26", "0.85", "0.95", "1.80", "4.06", "0.13", "0.1", "3150", "15.794759", "6.958889", "5.302083", "7.464596", "56.708253", "3.354775", "4.575521", "3.614246", "0.817352", "3.097674", "92.606791", "93.897294", "17.622854", "18.611371", "0.817128", "82.324842", "82.397359", "2.107001", "2015-09-01T00:00:00" ]
+, [ 42, "82D418FE-6B47-4B4C-96E0-B59F0C5608C4", 42, 1442436449, "391130", 1442436449, "391130", null, "PR", "21.6", "0.8", "20.5", "3.0", "7.3", "3.5", "0.00", "3.14", "4.04", "7.18", "7.18", "0.78", "0.4", "9061", null, null, null, null, null, null, null, "0.000000", "0.000000", "0.000000", "100.000000", "100.000000", "3.773585", "33.391216", "0.486509", "92.870585", "92.926010", "0.740770", "2015-09-01T00:00:00" ]
+, [ 43, "26E12288-0514-4E9B-BA61-24B08A1D7B4E", 43, 1442436449, "391130", 1442436449, "391130", null, "RI", "2.2", "0.7", "1.8", "0.1", "2.6", "0.3", "2.58", "0.31", "0.98", "1.29", "3.87", "0.07", "0.1", "2363", "14.721750", "6.130534", "4.412004", "6.498821", "40.763392", "2.072643", "6.425435", "4.507572", "0.225291", "3.732196", "92.265536", "95.261179", "17.166944", "19.404689", "1.050298", "82.141075", "82.912283", "1.943177", "2015-09-01T00:00:00" ]
+, [ 44, "CA016C0E-DFEE-474E-8656-38EB5AD64262", 44, 1442436449, "391130", 1442436449, "391130", null, "SC", "6.6", "1.4", "5.4", "0.9", "5.8", "0.8", "2.48", "0.96", "0.89", "1.85", "4.33", "0.12", "0.5", "21998", "15.294386", "6.010146", "6.273597", "9.495564", "52.914967", "1.697245", "7.357600", "2.143741", "2.202185", "3.041355", "92.316809", "95.872941", "15.195303", "14.773077", "0.788055", "84.379716", "86.522442", "2.724702", "2015-09-01T00:00:00" ]
+, [ 45, "3A695EFD-18B2-4D52-BE36-65646E8633CE", 45, 1442436449, "391130", 1442436449, "391130", null, "SD", "7.0", "0.9", "6.4", "1.1", "5.0", "0.8", "2.47", "0.35", "0.88", "1.23", "3.70", "0.06", "0.0", "0", "17.425927", "8.883280", "5.199105", "7.387367", "44.469489", "3.888738", "5.452598", "6.697762", "0.525737", "5.050513", "95.987473", "96.315086", "18.181288", "18.166247", "1.152912", "82.547955", "79.360626", "2.062398", "2015-09-01T00:00:00" ]
+, [ 46, "A1247B55-6544-4BC4-B299-13E444EFB445", 46, 1442436449, "391130", 1442436449, "391130", null, "TN", "5.3", "3.0", "6.5", "2.8", "7.0", "3.0", "2.23", "1.05", "0.73", "1.78", "4.01", "0.10", "0.2", "22509", "16.822365", "5.351342", "5.463037", "8.321752", "51.836419", "3.240009", "7.071416", "3.078337", "2.258442", "3.591503", "92.589936", "92.514924", "22.731722", "15.474642", "0.626620", "83.386489", "81.385060", "2.644881", "2015-09-01T00:00:00" ]
+, [ 47, "AF6324BF-ED84-4868-9002-1DB7500146F7", 47, 1442436449, "391130", 1442436449, "391130", null, "TX", "7.0", "3.8", "7.7", "4.1", "6.9", "4.4", "2.28", "0.95", "0.61", "1.56", "3.84", "0.08", "0.6", "9157", "19.947269", "8.223014", "6.757997", "5.934390", "45.997925", "3.181659", "6.010097", "7.165887", "0.825813", "3.444923", "90.110806", "88.322730", "24.097962", "17.875983", "0.806473", "72.986766", "71.435173", "3.349063", "2015-09-01T00:00:00" ]
+, [ 48, "94F3650E-362A-4492-BBC2-13E661824560", 48, 1442436449, "391130", 1442436449, "391130", null, "UT", "6.4", "2.9", "8.2", "3.8", "10.4", "3.9", "2.58", "0.47", "1.45", "1.92", "4.49", "0.22", "0.5", "2360", "13.084203", "11.589035", "4.280742", "7.181412", "49.616884", "2.827289", "5.407885", "13.625372", "1.361497", "3.418758", "95.996561", "95.392800", "22.759423", "21.917431", "0.769369", "89.254175", "89.248497", "1.783188", "2015-09-01T00:00:00" ]
+, [ 49, "651536C0-370E-4D96-994A-8E0051BE2C93", 49, 1442436449, "391130", 1442436449, "391130", null, "VA", "8.8", "2.1", "8.5", "2.1", "7.9", "2.1", "2.31", "1.07", "0.82", "1.89", "4.20", "0.12", "0.1", "5623", "18.155316", "7.700155", "6.397931", "7.892242", "51.735285", "2.629622", "6.261085", "3.314459", "0.639193", "3.323737", "89.433824", "91.648048", "18.161575", "17.616268", "0.823938", "81.120333", "80.457976", "2.384039", "2015-09-01T00:00:00" ]
+, [ 50, "E3254186-49A8-49C0-A7F0-F2F5848AAB83", 50, 1442436449, "391130", 1442436449, "391130", null, "VI", "7.0", "0.0", "0.0", "11.0", "9.0", "3.0", "3.37", "0.49", "0.84", "1.33", "4.70", "0.04", "0.0", "0", "17.647059", "5.722241", "9.677416", "9.782607", null, "0.000000", "2.173913", "1.234568", "1.086958", "1.086958", "50.549453", "34.782607", "5.333333", "24.719100", "0.000000", "48.314606", "50.476194", "0.000000", "2015-09-01T00:00:00" ]
+, [ 51, "3C37C17D-CEAC-4C5C-9F04-F7D0A3660FF6", 51, 1442436449, "391130", 1442436449, "391130", null, "VT", "7.0", "0.5", "8.9", "0.5", "8.2", "0.6", "2.60", "0.70", "0.92", "1.62", "4.23", "0.10", "0.5", "11234", "19.496826", "10.751766", "4.518329", "7.580965", "51.295305", "3.625828", "5.555272", "12.450662", "0.150891", "3.996898", "90.821507", "93.128775", "18.941046", "22.826716", "0.675548", "80.565729", "79.289764", "2.145626", "2015-09-01T00:00:00" ]
+, [ 52, "F3CCB07B-3713-4EB6-9ADF-119625D30301", 52, 1442436449, "391130", 1442436449, "391130", null, "WA", "9.0", "2.2", "8.8", "2.1", "9.3", "2.4", "2.60", "0.61", "1.19", "1.79", "4.39", "0.15", "0.5", "1299", "14.210564", "8.505974", "5.193414", "7.054300", "52.155260", "3.236012", "6.083292", "10.053813", "0.812698", "2.624509", "91.572717", "95.003909", "17.243770", "20.116121", "0.817705", "85.025031", "86.175674", "1.988656", "2015-09-01T00:00:00" ]
+, [ 53, "D1F2316C-EC6F-4C7B-B869-0B75DFC97BE2", 53, 1442436449, "391130", 1442436449, "391130", null, "WI", "7.5", "4.2", "7.4", "4.6", "7.7", "4.1", "2.59", "0.56", "1.01", "1.57", "4.16", "0.09", "0.5", "8522", "15.197989", "8.469094", "4.341647", "7.512531", "44.819025", "3.582722", "4.382312", "6.026683", "0.457797", "3.096365", "93.989671", "97.895658", "13.696498", "20.723692", "0.799208", "87.586934", "90.291541", "1.237935", "2015-09-01T00:00:00" ]
+, [ 54, "0EAA1E6E-7BF3-4555-A492-B1014CF0A5BD", 54, 1442436449, "391130", 1442436449, "391130", null, "WV", "10.7", "1.6", "10.9", "1.1", "12.6", "2.4", "2.25", "0.91", "0.84", "1.75", "4.00", "0.08", "0.3", "11514", "18.884278", "8.302748", "6.710319", "8.855967", "43.565291", "3.854314", "7.185626", "7.058651", "1.250386", "4.634509", "93.318907", "95.276319", "16.866125", "21.046170", "1.144526", "81.210240", "82.163658", "2.107947", "2015-09-01T00:00:00" ]
+, [ 55, "AFFC9DE5-46DB-4881-9B51-00F65C70878B", 55, 1442436449, "391130", 1442436449, "391130", null, "WY", "10.5", "4.5", "9.8", "5.6", "11.1", "5.6", "2.40", "0.43", "1.02", "1.46", "3.86", "0.08", "0.0", "0", "17.413190", "12.574233", "4.333300", "8.183563", "41.931925", "3.831630", "4.847649", "6.732636", "1.102790", "4.604489", "93.374991", "84.965634", "14.625245", "24.903505", "0.439210", "81.556569", "77.208489", "2.425091", "2015-09-01T00:00:00" ]
+ ]
+}
