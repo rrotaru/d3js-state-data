@@ -5,13 +5,19 @@
         <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
         <script src="js/datamaps.all.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
-        <div id="container" style="position: absolute; width: 80vw; top: 8px; left: 8px; bottom: 54px;"></div>
-        <div id="controller" style="position: absolute; top: 8px; right: 8px; bottom: 8px; width: 15vw;">
+        <div>
+            <div id="chart" style="display: none; position: absolute; width: 80vw; top: 8px; left: 8px; bottom: 54px;"></div>
+            <div id="container" style="display: none; position: absolute; width: 80vw; top: 8px; left: 8px; bottom: 54px;"></div>
+            <div id="bar" style="display: none; position: absolute; width: 80vw; top: 8px; left: 8px; bottom: 54px;"></div>
         </div>
-
-
+        <div id="controller" style="position: absolute; top: 8px; right: 8px; bottom: 8px; width: 205px;">
+            <label for="heatmap"><input type="radio" name="view" trigger="container" id="heatmap" checked/>Heat Map</label> 
+            <label for="piechart"><input type="radio" name="view" trigger="chart" id="piechart"/>Pie Chart</label>
+            <label for="bargraph"><input type="radio" name="view" trigger="graph" id="bargraph"/>Bar Graph</label>
+        </div>
         <script src="js/state-data.js"></script>
     </body>
 </html>

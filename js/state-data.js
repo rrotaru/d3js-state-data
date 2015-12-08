@@ -1,7 +1,7 @@
 var jsondata = {};
+var jsonarray = [];
 var map;
 $.getJSON('json/stateaverages.json', function(dataset) {
-    console.log(dataset);
     var data = dataset.data;
     var columns = dataset.meta.view.columns;
     var nameField = 8; // Index of the name field in the state data object
@@ -51,22 +51,32 @@ $.getJSON('json/stateaverages.json', function(dataset) {
         }
     }
     
-    function updateColors() {
+    /*** 
+     *** D3JS Choropleth Heat Map
+     ***/
+
+    function updateData() {
         for (var key in jsondata) {
-                jsondata[key].fillKey = jsondata[key][this.value].fillKey;
-            }
-            map.updateChoropleth(jsondata);
+            jsondata[key].fillKey = jsondata[key][this.value].fillKey;
+        }
+        map.updateChoropleth(jsondata);
+
+        $("#chart svg g *").remove()
+        createPie(jsonarray);
+        selectVal = this.value;
+
     };
 
-    var sel = $('<select>').appendTo('#controller').css({'float':'right'});
+    var sel = $('<select>').prependTo('#controller').css({'float':'right'});
     var desc = $('<div>').appendTo('#controller').css({'position':'absolute','bottom':'8px'});
     desc.append($('<h1>').text(dataset.meta.view.name).css({'font-family':'sans-serif'}));
     desc.append($('<p>').text(dataset.meta.view.description).css({'font-family':'sans-serif','font-size':'14px'}));
-    sel.change(updateColors);
+    sel.change(updateData);
 
     for (var key in jsondata['NATION']) {
         sel.append($("<option>").attr('value',key).text(jsondata['NATION'][key].name));
     }
+    selectVal = $('select').val();
 
     map = new Datamap({
         scope: 'usa',
@@ -100,5 +110,96 @@ $.getJSON('json/stateaverages.json', function(dataset) {
     //draw a legend for this map
     map.legend();
     map.labels();
+
+    /***
+     *** D3JS Animated Pie Chart
+     ***/
+     var jsonarray = Object.keys(jsondata).map(function(k) { 
+         jsondata[k].label = k; 
+         return jsondata[k];
+     })
+
+    var width = $(document).width();
+    var height = $(document).height() - 20;
+    var radius = Math.min(width, height) / 2;
+    var donutWidth = 150;
+    var legendRectSize = 10;
+    var legendSpacing = 3;
+    var color = d3.scale.category20b();
+    var svg = d3.select('#chart')
+      .append('svg')
+      .attr('width', width)
+      .attr('height', height)
+      .append('g')
+      .attr('transform', 'translate(' + ((width / 2)-(width*0.1)) + 
+        ',' + (height / 2) + ')');
+    var arc = d3.svg.arc()
+      .innerRadius(radius - donutWidth)
+      .outerRadius(radius);
+    var pie = d3.layout.pie()
+      .value(function(d) { return parseFloat(d[selectVal].value); })
+      .sort(null);
+    var tooltip = d3.select('#chart')
+      .append('div')
+      .attr('class', 'tooltip');
+    
+    tooltip.append('div')
+      .attr('class', 'label');
+    tooltip.append('div')
+      .attr('class', 'count');
+    tooltip.append('div')
+      .attr('class', 'percent');
+
+    function createPie(dataset) {
+      dataset.forEach(function(d) {
+        d.enabled = true;                                         // NEW
+      });
+      var path = svg.selectAll('path')
+        .data(pie(dataset))
+        .enter()
+        .append('path')
+        .attr('d', arc)
+        .attr('fill', function(d, i) { 
+          return color(d.data.label); 
+        })                                                        // UPDATED (removed semicolon)
+        .each(function(d) { this._current = d; });                // NEW
+      path.on('mouseover', function(d) {
+        d3.select(this)
+        .attr('fill', function(d, i) { 
+          return d3.rgb(color(d.data.label)).brighter().toString(); 
+        });
+        
+        var total = d3.sum(dataset.map(function(d) {
+          return (d.enabled) ? parseFloat(d[selectVal].value) : 0;                       // UPDATED
+        }));
+
+        //TODO Figure out why some selections cause issues
+        var percent = Math.round(1000 * parseFloat(d.data[selectVal].value) / total) / 10;
+        tooltip.select('.label').html(d.data.label);
+        tooltip.select('.count').html(d.data[selectVal].value); 
+        tooltip.select('.percent').html(percent + '%'); 
+        tooltip.style('display', 'block');
+      });
+      
+      path.on('mouseout', function() {
+        d3.select(this)
+        .attr('fill', function(d, i) { 
+          return color(d.data.label); 
+        });
+
+        tooltip.style('display', 'none');
+      });
+      path.on('mousemove', function(d) {
+        tooltip.style('top', (d3.event.pageY + 10) + 'px')
+          .style('left', (d3.event.pageX + 10) + 'px');
+      });
+    };
+    createPie(jsonarray);
 });
 
+$(function(){
+    $(':radio').click(function() {
+        $('#' + $(this).attr('trigger')).fadeIn().siblings('div').hide();
+    })
+    .filter(':checked').click();//trigger the click event
+});
