@@ -35,3 +35,22 @@ h1 {                                                            /* NEW */
 input[type="radio"] {
     
 }
+
+.axis {
+  font: 7px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+label {
+    font-family: "Helvetica", sans-serif;
+}
